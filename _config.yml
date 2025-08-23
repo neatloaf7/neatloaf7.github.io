@@ -1,3 +1,22 @@
-theme: jekyll-theme-minimal
 title: neatloaf7
-description: neatloaf7's garbage dump
+url: "https://neatloaf7.github.io/"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
+
+include: ["_pages", "_posts", "_projecttags"]
+
+head_scripts:
+  - /assets/css/custom.scss
+  
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      categories: Projects
+  
