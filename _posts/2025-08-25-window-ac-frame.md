@@ -1,11 +1,12 @@
 ---
-title: "Making a Frame to Install a Conventional Window A/C in a Sliding Window"
+title: "Installing a Window A/C in a Sliding Window"
 date: 2025-08-25
 layout: single
 categories: other
 tags:
     - "Woodworking"
     - "Air Conditioner"
+excerpt: My take on mounting a conventional window A/C in a horizontally sliding window.
 ---
 
 ## Context

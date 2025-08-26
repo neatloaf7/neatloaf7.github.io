@@ -9,8 +9,8 @@ minimal_mistakes_skin: "dark"
 
 include: ["_pages", "_posts", "_projecttags"]
 
-head_scripts:
-  - /assets/css/custom.scss
+# head_scripts:
+#  - /assets/css/custom.scss
   
 defaults:
   - scope:
@@ -19,4 +19,17 @@ defaults:
     values:
       layout: single
       categories: Projects
+      show_date: true
   
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: 'page/:num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+search: true
