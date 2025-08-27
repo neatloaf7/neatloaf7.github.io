@@ -4,6 +4,7 @@ url: "https://neatloaf7.github.io/"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-archives
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 
@@ -18,8 +19,9 @@ defaults:
       type: posts
     values:
       layout: single
-      categories: Projects
       show_date: true
+      toc : true
+      toc_sticky: true
   
 pagination:
   enabled: true
@@ -33,3 +35,21 @@ pagination:
     after: 2
 
 search: true
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/

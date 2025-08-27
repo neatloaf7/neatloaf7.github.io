@@ -121,7 +121,18 @@
                 
                 
               >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -181,6 +192,13 @@
 
       <section class="page__content" itemprop="text">
         
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#hello">hello</a></li></ul>
+            </nav>
+          </aside>
+        
         <h2 id="hello">hello</h2>
 
 <p>This is a test post, I will update with real info soon</p>
@@ -191,6 +209,40 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/3d-printing" class="page__taxonomy-item p-category" rel="tag">3D Printing</a><span class="sep">, </span>
+    
+      <a href="/tags/circuitpython" class="page__taxonomy-item p-category" rel="tag">Circuitpython</a><span class="sep">, </span>
+    
+      <a href="/tags/rp2040-pomodoro-timer" class="page__taxonomy-item p-category" rel="tag">RP2040 Pomodoro Timer</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/projects" class="page__taxonomy-item p-category" rel="tag">Projects</a>
+    
+    </span>
+  </p>
 
 
         
@@ -207,7 +259,7 @@
       <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="/projects/other/2025/08/25/window-ac-frame.html" class="pagination--pager" title="Installing a Window A/C in a Sliding Window">Next</a>
+      <a href="/other/2025/08/25/window-ac-frame.html" class="pagination--pager" title="Installing a Window A/C in a Sliding Window">Next</a>
     
   </nav>
 
@@ -224,6 +276,17 @@
       
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
     <div id="footer" class="page__footer">
@@ -256,6 +319,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

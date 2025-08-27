@@ -6,8 +6,8 @@ var store = [{
         "teaser": null
       },{
         "title": "Installing a Window A/C in a Sliding Window",
-        "excerpt":"Context I am renting an apartment that has these horizontally sliding windows, installed near the floor. I wanted to go for a window A/C as they keep the loud and hot condenser unit outside, and are generally cheaper than the portable hose-type units. They also take up less space which...","categories": ["Projects","other"],
+        "excerpt":"Context I am renting an apartment that has these horizontally sliding windows, installed near the floor. I wanted to go for a window A/C as they keep the loud and hot condenser unit outside, and are generally cheaper than the portable hose-type units. They also take up less floor space...","categories": ["Other"],
         "tags": ["Woodworking","Air Conditioner"],
-        "url": "/projects/other/2025/08/25/window-ac-frame.html",
+        "url": "/other/2025/08/25/window-ac-frame.html",
         "teaser": null
       }]

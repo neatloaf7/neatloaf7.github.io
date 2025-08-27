@@ -117,7 +117,18 @@
                 
                 
               >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -154,7 +165,7 @@
     
       
         <li>
-          <a href="#rp2040-pomodoro-timer">
+          <a href="/tags/rp2040-pomodoro-timer/">
             <strong>RP2040 Pomodoro Timer</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
@@ -162,7 +173,7 @@
     
       
         <li>
-          <a href="#circuitpython">
+          <a href="/tags/circuitpython/">
             <strong>Circuitpython</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
@@ -170,7 +181,7 @@
     
       
         <li>
-          <a href="#3d-printing">
+          <a href="/tags/3d-printing/">
             <strong>3D Printing</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
@@ -178,7 +189,7 @@
     
       
         <li>
-          <a href="#woodworking">
+          <a href="/tags/woodworking/">
             <strong>Woodworking</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
@@ -186,7 +197,7 @@
     
       
         <li>
-          <a href="#air-conditioner">
+          <a href="/tags/air-conditioner/">
             <strong>Air Conditioner</strong> <span class="taxonomy__count">1</span>
           </a>
         </li>
@@ -353,7 +364,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/projects/other/2025/08/25/window-ac-frame.html" rel="permalink">Installing a Window A/C in a Sliding Window
+        <a href="/other/2025/08/25/window-ac-frame.html" rel="permalink">Installing a Window A/C in a Sliding Window
 </a>
       
     </h2>
@@ -400,7 +411,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/projects/other/2025/08/25/window-ac-frame.html" rel="permalink">Installing a Window A/C in a Sliding Window
+        <a href="/other/2025/08/25/window-ac-frame.html" rel="permalink">Installing a Window A/C in a Sliding Window
 </a>
       
     </h2>
@@ -434,14 +445,23 @@
     
   
 
-
-
   </div>
 </div>
 
       
     </div>
 
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
     
 
     <div id="footer" class="page__footer">
@@ -474,6 +494,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
