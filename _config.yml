@@ -5,6 +5,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-sitemap
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 
