@@ -5,8 +5,9 @@ layout: single
 categories: Projects
 tags: 
     - "RP2040 Pomodoro Timer"
-    - Circuitpython
+    - CircuitPython
     - "3D Printing"
+    - RP2040
 excerpt: test excerpt
 ---
 
