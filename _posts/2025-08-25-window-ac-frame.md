@@ -48,7 +48,7 @@ One drawback of this design is that it is not really modular; If I move to anoth
 
 Another drawback I see is that installation will be a little cumbersome. There is about a .5 inch thick lip on the bottom of the unit that rests against the outside of the window. I'll have to sit the window on the "sill," and install the frame after the A/C is in the window. There is also a U-shaped bracket on the top of the A/C where a window would typically come down into. The front of the U is about 1" and the back is about .5". The .375" of play in the frame isn't enough to accomodate this, but I might be able to get away with doing some funky angling of the A/C while the frame is going in. The unit is only about 35 lbs so hopefully this doesn't give me too much trouble. It would probably be easiest to install the frame from the outside, which isn't really an option if you're on the second story or higher.
 
-All that being said, I don't I will want to move the A/C between my bedroom and living room. I guess that's the convenience of having a portable A/C.
+All that being said, I probably won't be inclined to move the A/C between my bedroom and living room. I guess that's the convenience of having a portable A/C.
 
 ## The Build
 
@@ -63,3 +63,40 @@ As I write this I am waiting for my A/C to be delivered. I went ahead and cut do
     <img src="/assets/images/ac/vert2.png" style="height: 300px; width: auto">
 </div>
 
+### Phase 2
+
+The A/C arrived and I tweaked my dimensions based on some measurements I took off the unit. I ran into a small road block; The faux window sill I made is as far forward as I could get it, but resting the A/C against it tips the unit forward rather than backward, which is not good for operation. Luckily the A/C lip is able to rest inside the window track, and has about 2-3 degrees of back tilt when I fit it up. If needed, I can bend the top lip of the A/C to get a little more tilt back. 
+
+I added 1/16" or so to each dimension for some rough tolerancing, but I don't think I added enough. The frame and A/C fit together almost like a press fit, and getting it wedged into place was as annoying as I imagined. This is sort of good though as it means a would-be burglar cannot easily remove the A/C. I also cannot easily remove the A/C, so I am going to get the rest of the frame together without any more test fitting. There are a few gaps between the frame and A/C that I will have to fill with weather stripping once installed. Before the final phase of building, I am waiting for the clear coat to dry on the two large plywood pieces. 
+
+<p style="text-align: center">
+    <img src="/assets/images/ac/testfit.png" width="700">
+</p>
+
+### Phase 3
+
+I installed the outward facing piece of ply and filled up the cavity with some foam in a can. It actually expanded way more than I anticipated and I needed to saw it flush with the frame.
+
+<p style="text-align: center">
+    <img src="/assets/images/ac/foam.png" width="500">
+</p>
+
+After this, I just had to seal up the cavity and wrangle the frame and A/C into place. Here is how it all looks together.
+
+<p style="text-align: center">
+    <img src="/assets/images/ac/final.png" width="500">
+</p>
+
+As the frame is slightly less thick than the track depth, I used some scrap plywood to shim the bottoms so they couldnt move out of place. I then tucked some insulating foam into all the spaces to weathertight my setup the best I could. 
+
+## Closing 
+
+This took longer than expected, mostly from having to cure several coats of clear coat and the expanding foam. It has a few imperfections but I am pretty satisfied with the result. I was a little disappointed the faux sill didn't work out, but honestly having another part in the assembly would probably be a pain in the ass for future me. There is a chance of rain tomorrow, so I should probably go around the edge of the outward facing plywood with a bead of silicone. The days following will be a heat wave, so I got this together just in time.
+
+As I bought basically the cheapest A/C with a remote, you cannot adjust the pitch of the vents. This is sort of a problem as the A/C just blows its cold air onto the floor. I did some quick cardboard and hot glue engineering before bed to prototype an air deflector before I design something more permanent. 
+
+<p style="text-align: center">
+    <img src="/assets/images/ac/cboard.png" width="500">
+</p>
+
+There is alot of variance between windows and A/Cs, and there is no real one solution to this problem. If you read through this hopefully this gives you some ideas to incorporate. 
