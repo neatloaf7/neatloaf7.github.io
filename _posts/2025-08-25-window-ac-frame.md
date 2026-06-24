@@ -7,6 +7,8 @@ tags:
     - "Woodworking"
     - "Air Conditioner"
 excerpt: My take on mounting a conventional window A/C in a horizontally sliding window.
+header:
+    teaser: "/assets/images/ac/teaser.png"
 ---
 
 ## Context

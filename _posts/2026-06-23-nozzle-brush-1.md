@@ -7,6 +7,8 @@ tags:
     - "3D Printing"
     - "Nozzle Brush"
 excerpt: Designing a stowable nozzle brush and purge bucket for my bed slinger
+header:
+    teaser: "/assets/images/nozzle/teaser1.png"
 ---
 
 I am currently in a high-project-motivation period where my 3d printer is seeing alot of use, and one deficiency I need to address is my pre-print routine. Currently I use the classic creality purge line; this works well for purging the nozzle itself, but during preheat a stray blob or string of filament will usually end up sticking to the nozzle exterior. This stray filament has a tendency to not get wiped off on the purge line and will end up somewhere in the middle of my first layer. I picked up a pack of cheap servos and some silicone nozzle brushes to try to find a solution. This is also a good way for me to start getting into the weeds of extending printer functionality with klipper.
