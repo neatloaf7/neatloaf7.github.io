@@ -1,5 +1,5 @@
 title: neatloaf7
-url: "https://neatloaf7.github.io/"
+url: "https://neatloaf7.github.io"
 
 plugins:
   - jekyll-remote-theme
