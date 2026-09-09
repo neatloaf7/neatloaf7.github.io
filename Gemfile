@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # This is the core Jekyll gem
-gem "jekyll", "~> 4.3.3"
+gem "jekyll", "~> 4.4"
 
 # This is the plugin that allows using themes from GitHub
 gem "jekyll-remote-theme"
